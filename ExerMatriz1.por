@@ -1,5 +1,5 @@
 programa
-{/*Crie um programa que receba valores do usuário para preencher uma matriz 3X3, e
+{/*Crie um programa que receba valores do usuário para preencher uma matriz 3X3, e
 em seguida, exiba a soma dos valores dela e a soma dos valores da primeira
 diagonal, ou seja, diagonal principal.*/
 	
@@ -15,11 +15,12 @@ diagonal, ou seja, diagonal principal.*/
 				soma = soma + numeros[l][c]}
 
 				escreva ("\n")
-			
-				soma= numeros[0][0] + numeros[1][1] + numeros[2][2]
-				escreva("\nSoma dos numeros: " , soma)
 				
 	}
+	
+				escreva("\nSoma dos numeros: " , soma)
+				soma= numeros[0][0] + numeros[1][1] + numeros[2][2]
+				escreva("\nSoma dos numeros: " , soma)
 }
 }
 /* $$$ Portugol Studio $$$ 
@@ -27,7 +28,7 @@ diagonal, ou seja, diagonal principal.*/
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 589; 
+ * @POSICAO-CURSOR = 411; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
